@@ -86,7 +86,7 @@ def main():
 
         # Count Plots
 
-        if st.checkbox("Plot of Value Counts"):
+        if st.checkbox("A Value Counts Plot"):
             st.text("Value Counts by Target")
             all_col_names = df.columns.to_list()
             primary_col = st.selectbox("Primary Column to GroupBy", all_col_names)
