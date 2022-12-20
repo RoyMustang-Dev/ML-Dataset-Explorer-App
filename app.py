@@ -98,6 +98,7 @@ def main():
                 else:
                     vc_plot = df.iloc[:,-1].value_counts()
                 st.write(vc_plot.plot(kind="bar"))
+                st.set_option('deprecation.showPyplotGlobalUse', False)
                 st.pyplot()
 
         # Seaborn Plots
