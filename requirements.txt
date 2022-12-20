@@ -1,8 +1,5 @@
 streamlit
-sklearn
 pandas
-numpy
 matplotlib
-nltk
 seaborn
 scipy
