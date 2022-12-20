@@ -92,7 +92,7 @@ def main():
             primary_col = st.selectbox("Primary Column to GroupBy", all_col_names)
             selected_col_names = st.multiselect("Select Columns", all_col_names)
             if st.button("Plot"):
-                st.text("Generate Plot")
+                st.text("Generate Value Counts Plot")
                 if selected_col_names:
                     vc_plot = df.groupby(primary_col)[selected_col_names].count()
                 else:
